@@ -1,0 +1,5 @@
+jupyter==6.4.5
+ipywidgets==7.6.5
+selenium==4.15.2
+urllib3==1.26.18
+webdriver_manager==4.0.0

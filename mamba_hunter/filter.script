@@ -1,0 +1,22 @@
+# Common Inbox Filter
+Входящие
+Корзина
+profile["blocked"] or profile["ignored"]
+34 not in range([int(s) for s in profile["data"]["look-for-age-range"].split() if s.isdigit()][0], [int(s) for s in profile["data"]["look-for-age-range"].split() if s.isdigit()][1]+1)
+# profile["data"]["dating-goals"] == None or "создание семьи" not in profile["data"]["dating-goals"]
+profile["data"]["children"] == None or "Дети есть" in profile["data"]["children"]
+('секс' in profile["data"]["profile-interests"].lower()) or ('щедр' in profile["data"]["profile-interests"].lower()) or ('любовница' in profile["data"]["profile-interests"].lower()) or ('подарк' in profile["data"]["profile-interests"].lower()
+[int(s) for s in profile["data"]["height"].split() if s.isdigit()][0] < 165
+profile["data"]["weight"] == None
+[int(s) for s in profile["data"]["weight"].split() if s.isdigit()][0] > 65
+"Не курю" not in profile["data"]["smoking-attitude"]
+"Полное" in profile["data"]["constitution"]
+# "Гетеро" not in profile["data"]["orientation"]
+# "Европейская" not in profile["data"]["appearance"]
+
+# CLEAN Корзина
+# Корзина
+# NULL
+
+# Custom for Item (any Category)
+# 1773640131
